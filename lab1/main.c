@@ -39,7 +39,7 @@ void print_list() {
     while (cur != NULL) {
         printf("%c", cur->ch);
         if (cur->next != NULL) {
-            printf(",");
+            printf(", ");
         }
         cur = cur->next;
     }
